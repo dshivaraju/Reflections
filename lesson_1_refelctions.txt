@@ -1,0 +1,39 @@
+FC is the command used in Windows and diff is the command used in MAC or Linux to spot the difference between two files.
+FC game_old.js game_new.js
+diff -u game_old.js game_new.js
+Having access to entire history of a file makes you to revert back to the older versions of file in case the newer version is not working and you have to start from early again. This saves a lots of time and frustration for a programmer.
+The pros of manually choosing to create a commit is that there would be lots of flexibilty as a programmer who can control the versions that you want to as you would be the one who would be programming.
+The cons of it is again, you would be sometimes clueless as to at what time you need to commit
+How can you use the commands git log and git diff to view the history of files?
+
+Answer: Git log can be used to see the logs of the commits that have been made to the repository and also to spot the difference between one commit to the other by looking at the message that has been used to decribe the relevant changes. USAGE: git log (inside the repository)
+	git diff is used to compare two different versions of a commit using the commit ids which gives a more information on the lines that were deleted in the previous commit and the lines that were added to the current commit. USAGE: git diff prev_id curr_id.
+
+
+
+How might using version control make you more confident to make changes that could break something?
+Answer: Because you can revert to your older code anytime you want by using the git checkout (older commit) anytime you want and you also can identify the error that was deleted using the git diff (older version) and (new version).
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Because, respositories in Git have different files and each file is dependent on each other. Once you commit the changes one file, the other changes should also be refelected in the dependent files.
+
+
+Git Errors and Warnings Solution
+
+Should not be doing an octopus 
+Octopus is a strategy Git uses to combine many different versions of code together. This message can appear if you try to use this strategy in an inappropriate situation.
+
+You are in 'detached HEAD' state 
+HEAD is what Git calls the commit you are currently on. You can “detach” the HEAD by switching to a previous commit, which we’ll see in the next video. Despite what it sounds like, it’s actually not a bad thing to detach the HEAD. Git just warns you so that you’ll realize you’re doing it.
+
+Panic! (the 'impossible' happened) 
+This is a real error message, but it’s not output by Git. Instead it’s output by GHC, the compiler for a programming language called Haskell. It’s reserved for particularly surprising errors!
+
+Takeaway
+
+We hope these errors and warnings amused you as much as they amused us! Now that you know what kind of errors Git can throw, you’re ready to start checking out previous versions of files with Caroline.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Because i want more flexibility to my projects where i can save everything and revert back to any changes that i have made.
