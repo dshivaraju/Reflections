@@ -5,3 +5,7 @@ Answer: When you want to create a new git repository on a existing directory, th
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Staging Area is a intermediate stage where all the logical files to be committed are added. When you think you have added some wrong files too which you want to commit, then you can always revert back using the git reset command.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+By adding the files that are relevant to a logical change to the staging arena using the command git add and commiting all these added files.
