@@ -5,3 +5,10 @@ When you feel that you have introduced some feature and it has to be pushed, whe
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Because it gives a flexibility to the contributor as to the time when he can upload the changes to the features that he has done rather than Git automatically doing it for him which sometime may be naive and not approachable.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks are, you are creating a same repository in your profile on github rather than modifying the owner owned repository which is what you can do when you don't have permissions to modify the repository.
+Clones are those where you are creating a local copy of the files in your local machine by cloning them from your remote repository.
+Branches are those that occur in your local directory, where move away from the master branch without affecting it. Using branches you can test your new features without affecting the new branch.
+
